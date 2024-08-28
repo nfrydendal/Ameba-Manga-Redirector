@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Ameba Manga Redirector",
+  "version": "1.0",
+  "description": "Redirects to higher quality images.",
+  "permissions": ["webNavigation"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

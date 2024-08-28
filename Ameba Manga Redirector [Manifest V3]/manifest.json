@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Ameba Manga Redirector",
+  "version": "1.0",
+  "description": "Redirects to higher quality images.",
+  "permissions": ["webNavigation"],
+  "host_permissions": ["https://stat.dokusho-ojikan.jp/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
